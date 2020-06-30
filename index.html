@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos_contando.css">
+    <title>Contando</title>
+</head>
+<body>
+    <header>
+        <h1> Super Contador </h1>
+    </header>
+    <section>
+        <div>
+            <form action="">
+                <p>
+                    <label for="inicio">Início da contagem:</label>
+                    <input type="number" name="inicio" id="inicio">
+                </p>
+                <p>
+                    <label for="fim">Fim da contagem:</label>
+                    <input type="number" name="fim" id="fim">
+                </p>
+                <p>
+                    <label for="passo">Passo:</label>
+                    <input type="number" name="passo" id="passo">
+                </p>
+                <p>
+                    <input type="button" value="Calcular!" onclick="calcular()">
+                </p>
+            </form>
+        </div>
+        <div id="resultado">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p> &copy; Curso em Vídeo</p>
+    </footer>
+
+    <script src="contando.js"></script>
+</body>
+</html>

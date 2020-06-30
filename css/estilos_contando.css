@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #181D27;
+    background-color: #f4ecd6;
+    font: normal 16pt monospace;
+}
+
+header{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+section{
+    align-items: center;
+    background-color: #9593D9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    margin: 15vh auto 0;
+    max-width: 80vw;
+    text-align: center;
+}
+
+section p{
+    padding: 10px;
+}
+
+section input{
+    border: 2px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 3px;
+    width: 100px;
+}
+
+section input[type="button"]{
+    transition: 0.2s;
+}
+
+section input[type="button"]:hover{
+    background-color: #D1345B;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+section #resultado{
+    padding: 10px;
+}
+
+footer{
+    margin-top: 10vh;
+    text-align: center;
+}
